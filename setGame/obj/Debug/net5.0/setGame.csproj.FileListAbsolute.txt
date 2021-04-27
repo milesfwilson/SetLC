@@ -1,0 +1,16 @@
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.exe
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.deps.json
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.runtimeconfig.json
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.runtimeconfig.dev.json
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.dll
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\ref\setGame.dll
+C:\Users\miles.wilson\source\repos\set\setGame\bin\Debug\net5.0\setGame.pdb
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.csprojAssemblyReference.cache
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.AssemblyInfoInputs.cache
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.AssemblyInfo.cs
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.csproj.CoreCompileInputs.cache
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.dll
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\ref\setGame.dll
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.pdb
+C:\Users\miles.wilson\source\repos\set\setGame\obj\Debug\net5.0\setGame.genruntimeconfig.cache
