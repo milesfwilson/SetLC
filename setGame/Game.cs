@@ -13,7 +13,7 @@ namespace setGame
       List<Card> deck = new List<Card>();
       string[] shapes = { "diamond", "wave", "pill" };
       string[] shades = { "solid", "outline", "lined" };
-      string[] colors = { "Red", "Green", "Blue" };
+      string[] colors = { "red", "green", "blue" };
       int[] numbers = { 1, 2, 3 };
 
       Random random = new Random();
@@ -41,6 +41,7 @@ namespace setGame
 
     public List<Card> selectCards(List<Card> set, List<Card> deck)
     {
+
       string cardOne = Console.ReadLine();
       set.Add(deck[Int16.Parse(cardOne) - 1]);
 
@@ -54,9 +55,9 @@ namespace setGame
       {
         Console.WriteLine($"{set[i].Shape} {set[i].Shade} {set[i].Color} {set[i].Number}");
       }
-
       return set;
     }
+
 
     public string validateSet(List<Card> set)
     {
@@ -91,5 +92,8 @@ namespace setGame
         return "Invalid Set!";
       }
     }
+
+    // NOTE Finish input validation
+
   }
 }

@@ -16,36 +16,46 @@ namespace setGame
       List<Card> deck = game.buildDeck();
       List<Card> set = new List<Card>();
 
-
       bool running = true;
       while (running)
       {
         Console.Clear();
-        // empty set 
-        Console.WriteLine("Enter Three Cards");
+        set.Clear();
 
         game.printDeck(deck);
 
+        Console.WriteLine(@"
+                Enter Three Cards
+                ");
+
         Console.WriteLine(game.validateSet(game.selectCards(set, deck)));
 
-        Console.WriteLine(@"
-        Continue? 
-        Y / N
-        ");
+        bool exit = false;
+        while (!exit)
+        {
 
-        string userInput = Console.ReadLine();
-        if (userInput.ToUpper() == "N")
-        {
-          Console.WriteLine("Exiting...");
-          running = false;
-        }
-        else if (userInput.ToUpper() == "Y")
-        {
-          Console.Clear();
-        }
-        else
-        {
-          Console.WriteLine("Enter a valid key");
+          Console.WriteLine(@"
+                Continue? 
+                  Y / N
+                ");
+
+          string userInput = Console.ReadLine();
+          if (userInput.ToUpper() == "N")
+          {
+            Console.WriteLine("Exiting...");
+            exit = true;
+            running = false;
+          }
+          else if (userInput.ToUpper() == "Y")
+          {
+            Console.Clear();
+            exit = true;
+          }
+          else
+          {
+            Console.Clear();
+            Console.WriteLine("Enter a valid key");
+          }
         }
       }
     }
